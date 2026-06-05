@@ -1,0 +1,39 @@
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0 0 8px 0;
+}
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 0;
+    
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+.features-block {
+width: calc((100% - 72px) / 4);
+}
+.features {
+    margin: 0;
+}
+.features-icon-container {
+   display: flex;
+    background-color: #f4f4fd;
+    justify-content: center;
+   border-radius: 4px;
+  height: 112px;
+  margin: 0 0 8px 0;
+  border: 1px solid #8e8f99;
+  align-items: center;
+  
+}
