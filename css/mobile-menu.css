@@ -85,7 +85,7 @@
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mobile-menu-contact-email {
+.mobile-menu-contact-link-email {
     color: #434455;
     font-style: normal;
     font-size: 20px;

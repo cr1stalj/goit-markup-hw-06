@@ -55,7 +55,7 @@ pointer-events: auto;
   background-color: #fcfcfc;
   padding: 20px;
   border-radius: 4px;
-  width: calc(100% - 32px);
+  width: 288px;
   padding: 72px 16px 24px 16px;
   position: relative;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),

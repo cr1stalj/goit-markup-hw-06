@@ -146,7 +146,6 @@
       flex-wrap: wrap;
       justify-content: flex-start;
       padding: 0 108px;
-      column-gap: 24px;
       align-items: baseline;
     }
     .footer .footer-logo {
