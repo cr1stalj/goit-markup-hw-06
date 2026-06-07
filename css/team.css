@@ -35,7 +35,7 @@
         margin-bottom: 8px;
 }
 .team-card {
-    width: calc((100% - 3 * 24px) / 4);
+    width: 100%;
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -44,10 +44,38 @@
 } 
 .team-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
  margin: 0;
  padding: 0;
+ list-style: none;
 }
+
+@media (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+
+    }
+    .team .container {
+        padding: 0 15px;
+    }
+    .team-card {
+        width: calc((100% - 24px) / 2);
+    }
+    }
+
+@media (min-width: 1158px) {
+    .team-list {
+    flex-wrap: nowrap;
+    }
+    .team-card {
+        width: calc((100% - 72px) / 4);
+    }
+    
+}   
+
 .team-content {
     padding-top: 32px;
     padding-bottom: 32px;

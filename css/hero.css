@@ -1,31 +1,31 @@
 .hero {
-   
-    padding: 188px 0;
-    background-image: linear-gradient(
+   padding: 72px 0;
+    background-image: linear-gradient(180deg,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ),
-  url(../images/hero-background.jpg);
+
+  url(../images/hero-mob-1x.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width:1440px;
     margin: 0 auto;
 }
 
 
+
 .hero-title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
-    width: 496px;
-    margin: auto auto 48px auto;
+    margin: 0 auto 72px ;
 }
 
 .hero-button {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -44,4 +44,92 @@
 .hero-button:focus,
 .hero-button:hover {
     background-color: #404bbf;
+}
+
+@media (min-resolution: 192dpi) {
+    .hero {
+        background: linear-gradient(180deg,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/hero-mob-2x.jpg);
+  background-size: cover;
+  background-position: top right,
+  center;
+  background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 112px 0;
+        background-image: linear-gradient(180deg
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+
+  url(../images/hero-tab-1x.jpg);
+        max-width: 768px;
+    }
+    .hero-title {
+        font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07143;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 36px;
+            max-width: 496px;
+            margin-left: auto;
+            margin-right: auto;
+            
+    }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+    .hero {
+        background: linear-gradient(180deg,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/hero-tab-2x.jpg);
+  background-size: cover;
+  background-position: top right,
+  center;
+  background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero {
+        padding: 188px 0;
+        background-image: linear-gradient( 180deg,
+            rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+
+            url(../images/hero-desk-1x.jpg);
+     max-width: 1440px;
+    }
+    
+    .hero-title {
+        font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07143;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #ffffff;
+        margin-bottom: 48px;
+    }
+}
+@media (min-resolution: 192dpi) and (min-width: 1158px) {
+    .hero {
+        background: linear-gradient(180deg,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/hero-desk-2x.jpg);
+        background-size: cover;
+        background-position: top right,
+            center;
+        background-repeat: no-repeat;
+    }
 }
