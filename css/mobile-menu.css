@@ -32,7 +32,7 @@
 .mobile-menu-nav-list {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 40px;
 }
 
 .mobile-menu-nav-item {
