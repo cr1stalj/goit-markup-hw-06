@@ -1,6 +1,6 @@
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0 100px 0;
+    padding: 96px 0;
 }
 .footer .container {
     display: flex;
@@ -39,6 +39,7 @@
     color: #f4f4fd;
     width: 264px;
   margin: 16px 0 0 0;
+  text-align: left;
 }
 
 .footer-icon {
@@ -104,7 +105,7 @@
     color: #ffffff;
     border: 1px solid #ffffff;
         border-radius: 4px;
-        width: 264px;
+        width: 100%;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #2e2f42;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -138,16 +139,15 @@
 .subscribe-button:focus {
     background-color: #31d0aa
 }
-.footer-subscribe {
-    margin-left: auto;
-}
+
 @media (min-width: 768px) {
     .footer .container {
-      flex-direction: row;
+        flex-direction: row;
       flex-wrap: wrap;
       justify-content: flex-start;
       padding: 0 108px;
       column-gap: 24px;
+      align-items: baseline;
     }
     .footer .footer-logo {
         text-align: left;

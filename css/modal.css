@@ -55,8 +55,8 @@ pointer-events: auto;
   background-color: #fcfcfc;
   padding: 20px;
   border-radius: 4px;
-  max-width: 408px;
-  padding: 72px 24px 24px 24px;
+  width: calc(100% - 32px);
+  padding: 72px 16px 24px 16px;
   position: relative;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
    0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -247,4 +247,10 @@ font-weight: 400;
 
 .modal-checkbox-wrapper {
   margin: 0 0 24px 0;
+}
+@media (min-width: 768px) {
+  .modal-div {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
 }

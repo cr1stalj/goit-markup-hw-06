@@ -75,7 +75,17 @@
     row-gap: 24px;
 }
 
-.mobile-menu-contact-link {
+.mobile-menu-contact-link-phone {
+    color: #4d5ae5;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-contact-email {
     color: #434455;
     font-style: normal;
     font-size: 20px;
