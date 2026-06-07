@@ -31,10 +31,8 @@
 
 .mobile-menu-nav-list {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
-    gap: 40px;
+    row-gap: 24px;
 }
 
 .mobile-menu-nav-item {

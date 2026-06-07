@@ -147,6 +147,7 @@
       justify-content: flex-start;
       padding: 0 108px;
       align-items: baseline;
+     
     }
     .footer .footer-logo {
         text-align: left;
@@ -181,6 +182,8 @@
     }
 }
 @media (min-width: 1158px) {
+    
+    
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -190,10 +193,5 @@
         padding: 0 ;
         row-gap: 0;
     }
-      .footer-socials {
-        margin-left: 120px;
-      }
-      .footer-subscribe {
-        margin-left: 83px;
-      }
+    
 }
